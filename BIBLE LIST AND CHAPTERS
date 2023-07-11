@@ -1,0 +1,12 @@
+/**Bible list:
+Genesis (1)
+Exodus (2)
+Leviticus (3)
+**/
+
+CREATE TABLE bible (Id integer Primary Key, name TEXT, chapter numeric);
+
+INSERT INTO bible VALUES ( 1, 'Genesis', 1);
+INSERT INTO bible VALUES ( 2, 'Exodus', 2) ;
+INSERT INTO bible VALUES ( 3, 'Leviticus', 3);
+Select * from Bible
